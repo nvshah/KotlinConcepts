@@ -41,7 +41,6 @@ object AnimeFactory {
 // var l = AnimeFactory.getAnime(Animes.Naruto)
 
 //3. Builder --------------------
-
 class TTRacquet private constructor(val rubber: String, val gum: Boolean, val wood: String) {
     class Builder {
         private var rubber = "Stag"
